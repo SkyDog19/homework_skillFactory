@@ -1262,7 +1262,7 @@ body {
   padding-top: 20px;
   font-size: 0.875rem;
   line-height: 164%;
-  color: #363636;
+  -webkit-text-fill-color: #363636;
   background: transparent;
 }
 @media (max-width: 728px) {
@@ -1278,6 +1278,21 @@ body {
 }
 .action-name-control__input:focus {
   outline: none;
+}
+.action-name-control__input:focus::-webkit-input-placeholder {
+  font-size: 0;
+}
+.action-name-control__input:focus::-moz-placeholder {
+  font-size: 0;
+}
+.action-name-control__input:focus:-ms-input-placeholder {
+  font-size: 0;
+}
+.action-name-control__input:focus::-ms-input-placeholder {
+  font-size: 0;
+}
+.action-name-control__input:focus::placeholder {
+  font-size: 0;
 }
 
 .action-number-control {
@@ -1319,6 +1334,21 @@ body {
 }
 .action-number-control__input:focus {
   outline: none;
+}
+.action-number-control__input:focus::-webkit-input-placeholder {
+  font-size: 0;
+}
+.action-number-control__input:focus::-moz-placeholder {
+  font-size: 0;
+}
+.action-number-control__input:focus:-ms-input-placeholder {
+  font-size: 0;
+}
+.action-number-control__input:focus::-ms-input-placeholder {
+  font-size: 0;
+}
+.action-number-control__input:focus::placeholder {
+  font-size: 0;
 }
 
 .checkbox-mobile {
@@ -1641,7 +1671,6 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  
   -webkit-column-gap: 25px;
      -moz-column-gap: 25px;
           column-gap: 25px;
@@ -1771,6 +1800,9 @@ body {
           box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
   min-width: 506px;
   min-height: 509px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 @media (max-width: 1040px) {
   .application-request__form {
@@ -1831,10 +1863,26 @@ body {
   font-size: 0.875rem;
   line-height: 164%;
   -webkit-text-fill-color: #fff;
+  color: #fff;
   background: transparent;
 }
 .action-name-application-request__input:focus {
   outline: none;
+}
+.action-name-application-request__input:focus::-webkit-input-placeholder {
+  font-size: 0;
+}
+.action-name-application-request__input:focus::-moz-placeholder {
+  font-size: 0;
+}
+.action-name-application-request__input:focus:-ms-input-placeholder {
+  font-size: 0;
+}
+.action-name-application-request__input:focus::-ms-input-placeholder {
+  font-size: 0;
+}
+.action-name-application-request__input:focus::placeholder {
+  font-size: 0;
 }
 
 .number-application-request {
@@ -1856,10 +1904,26 @@ body {
   font-size: 0.875rem;
   line-height: 164%;
   -webkit-text-fill-color: #fff;
+  color: #fff;
   background: transparent;
 }
 .number-application-request__input:focus {
   outline: none;
+}
+.number-application-request__input:focus::-webkit-input-placeholder {
+  font-size: 0;
+}
+.number-application-request__input:focus::-moz-placeholder {
+  font-size: 0;
+}
+.number-application-request__input:focus:-ms-input-placeholder {
+  font-size: 0;
+}
+.number-application-request__input:focus::-ms-input-placeholder {
+  font-size: 0;
+}
+.number-application-request__input:focus::placeholder {
+  font-size: 0;
 }
 
 .email-application-request {
@@ -1880,12 +1944,27 @@ body {
   padding-top: 20px;
   font-size: 0.875rem;
   line-height: 164%;
-  color: #ffffff;
   -webkit-text-fill-color: #fff;
+  color: #fff;
   background: transparent;
 }
 .email-application-request__input:focus {
   outline: none;
+}
+.email-application-request__input:focus::-webkit-input-placeholder {
+  font-size: 0;
+}
+.email-application-request__input:focus::-moz-placeholder {
+  font-size: 0;
+}
+.email-application-request__input:focus:-ms-input-placeholder {
+  font-size: 0;
+}
+.email-application-request__input:focus::-ms-input-placeholder {
+  font-size: 0;
+}
+.email-application-request__input:focus::placeholder {
+  font-size: 0;
 }
 
 .checkbox-application-request {
@@ -2545,9 +2624,25 @@ body {
   -webkit-text-fill-color: #fff;
   background: transparent;
   width: 100%;
+  color: #fff;
 }
 .action-name-body-action-any-qestion__input:focus {
   outline: none;
+}
+.action-name-body-action-any-qestion__input:focus::-webkit-input-placeholder {
+  font-size: 0;
+}
+.action-name-body-action-any-qestion__input:focus::-moz-placeholder {
+  font-size: 0;
+}
+.action-name-body-action-any-qestion__input:focus:-ms-input-placeholder {
+  font-size: 0;
+}
+.action-name-body-action-any-qestion__input:focus::-ms-input-placeholder {
+  font-size: 0;
+}
+.action-name-body-action-any-qestion__input:focus::placeholder {
+  font-size: 0;
 }
 
 .number-body-action-any-qestion {
@@ -2569,9 +2664,25 @@ body {
   -webkit-text-fill-color: #fff;
   background: transparent;
   width: 100%;
+  color: #fff;
 }
 .number-body-action-any-qestion__input:focus {
   outline: none;
+}
+.number-body-action-any-qestion__input:focus::-webkit-input-placeholder {
+  font-size: 0;
+}
+.number-body-action-any-qestion__input:focus::-moz-placeholder {
+  font-size: 0;
+}
+.number-body-action-any-qestion__input:focus:-ms-input-placeholder {
+  font-size: 0;
+}
+.number-body-action-any-qestion__input:focus::-ms-input-placeholder {
+  font-size: 0;
+}
+.number-body-action-any-qestion__input:focus::placeholder {
+  font-size: 0;
 }
 
 .action-name-want-to-know-any-qestion {
@@ -2593,9 +2704,25 @@ body {
   -webkit-text-fill-color: #fff;
   background: transparent;
   width: 100%;
+  color: #fff;
 }
 .action-name-want-to-know-any-qestion__input:focus {
   outline: none;
+}
+.action-name-want-to-know-any-qestion__input:focus::-webkit-input-placeholder {
+  font-size: 0;
+}
+.action-name-want-to-know-any-qestion__input:focus::-moz-placeholder {
+  font-size: 0;
+}
+.action-name-want-to-know-any-qestion__input:focus:-ms-input-placeholder {
+  font-size: 0;
+}
+.action-name-want-to-know-any-qestion__input:focus::-ms-input-placeholder {
+  font-size: 0;
+}
+.action-name-want-to-know-any-qestion__input:focus::placeholder {
+  font-size: 0;
 }
 
 .checkbox-qes {
@@ -2781,6 +2908,7 @@ body {
   left: -100%;
   background: #181818;
 }
+
 .swiper-block-mobile_button-prev {
   background: transparent;
   background: transparent;
@@ -2906,6 +3034,7 @@ body {
   -webkit-box-shadow: 0px 5px 25px rgba(234, 212, 176, 0.2);
           box-shadow: 0px 5px 25px rgba(234, 212, 176, 0.2);
 }
+
 .body-send-interaction-mobile {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2938,9 +3067,25 @@ body {
   background: transparent;
   -webkit-text-fill-color: #fff;
   padding-bottom: 6px;
+  color: #fff;
 }
 .name-body-send-interaction-mobile__input:focus {
   outline: none;
+}
+.name-body-send-interaction-mobile__input:focus::-webkit-input-placeholder {
+  font-size: 0;
+}
+.name-body-send-interaction-mobile__input:focus::-moz-placeholder {
+  font-size: 0;
+}
+.name-body-send-interaction-mobile__input:focus:-ms-input-placeholder {
+  font-size: 0;
+}
+.name-body-send-interaction-mobile__input:focus::-ms-input-placeholder {
+  font-size: 0;
+}
+.name-body-send-interaction-mobile__input:focus::placeholder {
+  font-size: 0;
 }
 
 .number-body-send-interaction-mobile {
@@ -2963,10 +3108,25 @@ body {
   line-height: 164%;
   background: transparent;
   -webkit-text-fill-color: #fff;
-  padding-bottom: 6px;
+  color: #fff;
 }
 .number-body-send-interaction-mobile__input:focus {
   outline: none;
+}
+.number-body-send-interaction-mobile__input:focus::-webkit-input-placeholder {
+  font-size: 0;
+}
+.number-body-send-interaction-mobile__input:focus::-moz-placeholder {
+  font-size: 0;
+}
+.number-body-send-interaction-mobile__input:focus:-ms-input-placeholder {
+  font-size: 0;
+}
+.number-body-send-interaction-mobile__input:focus::-ms-input-placeholder {
+  font-size: 0;
+}
+.number-body-send-interaction-mobile__input:focus::placeholder {
+  font-size: 0;
 }
 
 .qestion-body-send-interaction-mobile {
@@ -2990,9 +3150,25 @@ body {
   background: transparent;
   -webkit-text-fill-color: #fff;
   padding-bottom: 6px;
+  color: #fff;
 }
 .qestion-body-send-interaction-mobile__input:focus {
   outline: none;
+}
+.qestion-body-send-interaction-mobile__input:focus::-webkit-input-placeholder {
+  font-size: 0;
+}
+.qestion-body-send-interaction-mobile__input:focus::-moz-placeholder {
+  font-size: 0;
+}
+.qestion-body-send-interaction-mobile__input:focus:-ms-input-placeholder {
+  font-size: 0;
+}
+.qestion-body-send-interaction-mobile__input:focus::-ms-input-placeholder {
+  font-size: 0;
+}
+.qestion-body-send-interaction-mobile__input:focus::placeholder {
+  font-size: 0;
 }
 
 .checkbox-mob {
