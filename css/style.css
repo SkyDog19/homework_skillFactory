@@ -1415,7 +1415,7 @@ body {
   font-size: 0.875rem;
   line-height: 164%;
   color: #363636;
-  -webkit-text-fill-color: #fff;
+  -webkit-text-fill-color: #363636;
   background: transparent;
 }
 
@@ -1425,6 +1425,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 138.72%;
+    -webkit-text-fill-color: #fff;
     color: #FFFFFF;
     border-bottom: 1px solid #c3c3c3;
     padding-top: 14px;
